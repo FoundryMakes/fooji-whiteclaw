@@ -7,176 +7,229 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href='https://css.gg/chevron-down.css' rel='stylesheet'>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="index.js"></script>
   <title>WhiteClaw Promotional</title>
 </head>
 
 <body>
-  <div id="landing-background" class="column">
-    <div id="mobile-header">
-      <img id="mobile-header-image" src="./assets/wcLogoWhite.png" alt="white claw logo">
-    </div>
-    <img id="header-logo" src="./assets/wcLogoWhite.png" alt="white claw logo">
-    <div id="header-nav">
-      <a class="nav-link" href="#landing-section">HOME</a>
-      <a class="nav-link" href="#cta-form">ENTER NOW</a>
-      <a class="nav-link" href="#gallery">GALLERY</a>
-    </div>
-    <section id="landing-section" class="column">
-      <div id="landing-section__content-half" class="flex-center">
-        <h2 id="landing-section__title">2.5 YEARS OF HAPPY HOURS IN 2.5 WEEKS.</h2>
-        <p id="landing-section__copy" class="landing-copy">
-          We're giving back the 134 happy hours we missed during WFH.
-        </p>
-        <p id="landing-section__copy-wider" class="landing-copy">
-          Enter for a chance to win a Happy hour box
-        </p>
-        <div class="landing-chevron"><i class="gg-chevron-down"></i></div>
+
+  <div>
+    <div id="browser-header">
+      <img id="header-logo" src="./assets/wcLogoWhite.png" alt="white claw logo">
+      <div id="header-nav">
+        <a id="home-link" class="nav-link" href="#landing-section">HOME</a>
+        <a id="contest-link" class="nav-link" href="#cta-form">ENTER NOW</a>
+        <a id="gallery-link" class="nav-link" href="#gallery">GALLERY</a>
       </div>
-      <div class="section-half"></div>
+    </div>
+
+    <div id="landing-background" class="column">
+      <div id="mobile-header">
+        <img id="mobile-header-image" src="./assets/wcLogoWhite.png" alt="white claw logo">
+      </div>
+      <section id="landing-section" class="column">
+        <div id="landing-section__content-half" class="flex-center">
+          <h2 id="landing-section__title">2.5 YEARS OF HAPPY HOURS IN 2.5 WEEKS.</h2>
+          <p class="landing-copy copy-width">
+            We're giving back the 134 happy
+          </p>
+          <p class="landing-copy copy-width">
+            hours we missed during WFH.
+          </p>
+          <p id="landing-section__copy-wider" class="landing-copy">
+            Enter for a chance to win a Happy hour box.
+          </p>
+          <div class="landing-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 512 512">
+              <path
+                d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+            </svg>
+          </div>
+        </div>
+        <div class="section-half">
+          <video id="animated-gift-video" height="800px" autoplay muted playsinline>
+            <source src="./assets/movie-webm.webm" type="video/mp4">
+            <source src="./assets/whiteclaw_finder.mov" type='video/mp4; codecs="hvc1"'>
+          </video>
+        </div>
+    </div>
+    </section>
+    <section id="cta-form" class="form-section column">
+      <div id="section-half-image-container" class="section-half column">
+        <img id="happy-hour" src="./assets/HH134.png" alt="Happy Hour 134">
+      </div>
+      <div class="section-half column">
+        <h2>ENTER TO WIN</h2>
+        <div>
+          Insert Form Here
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <h1 class="gallery-title">YOUR HAPPY HOURS</h1>
+      <div class="gallery-section flex-center">
+        <div id="gallery-container">
+          <div class="polaroid-container">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1060749108-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1063846062-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1063851602-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm move-down">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1135147998_1-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm move-up">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1279483477_1-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1368420689-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm move-down">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-1401377259-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm move-up">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-503612392-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-519874619_1-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm move-down">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-565973285_1-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-627873424-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-right-sm move-up">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-641775168-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm move-down">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-77932214-Small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+          <div class="polaroid-container rotate-left-sm move-down">
+            <img class="gallery-photo" src="./assets/optimized-images/GettyImages-956390072-small.jpg"
+              alt="happy hour gallery photo">
+            <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
+          </div>
+        </div>
+
+      </div>
+      <div class="gallery-control-container">
+        <div class="flex-center scroll-container">
+          <!-- <img  class='chevron' src="./assets/left-chervon.svg" alt="left gallery arrow"> -->
+          <svg id="left-gallery-chevron" xmlns="http://www.w3.org/2000/svg" class="chevron left-chevron"
+            viewBox="0 0 512 512">
+            <path
+              d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256S114.6 512 256 512s256-114.6 256-256zM271 135c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-87 87 87 87c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L167 273c-9.4-9.4-9.4-24.6 0-33.9L271 135z" />
+          </svg>
+          <div class="scroll-text">VIEW GALLERY</div>
+          <svg id="right-gallery-chevron" xmlns="http://www.w3.org/2000/svg" class="chevron right-chevron"
+            viewBox="0 0 512 512">
+            <path
+              d="M0 256C0 397.4 114.6 512 256 512s256-114.6 256-256S397.4 0 256 0S0 114.6 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z" />
+          </svg>
+        </div>
+        <div class="gallery-hashtag"> #134HAPPYHOURS</div>
+        <img id="gallery-sticker-green" class="sticker" src="./assets/stickers/green_sticker.png" alt="green sticker">
+        <img id="gallery-sticker-white" class="sticker" src="./assets/stickers/white_sticker.png" alt="white sticker">
+        <img id="gallery-sticker-orange" class="sticker" src="./assets/stickers/orange_sticker.png"
+          alt="orange sticker">
+      </div>
+    </section>
+    <section id="footer-gallery-section">
+      <div id="footer-gallery" class="flex-center">
+        <div id="footer-gallery-container">
+          <img src="./assets/optimized-images/GettyImages-1060749108-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1063846062-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1063851602-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1135147998_1-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1279483477_1-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1368420689-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1401377259-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-503612392-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets//optimized-images/GettyImages-519874619_1-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-565973285_1-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-627873424-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-641775168-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-77932214-Small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-956390072-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+          <img src="./assets/optimized-images/GettyImages-1060749108-small.jpg" alt="footer gallery photo"
+            class="footer-gallery-image">
+        </div>
+      </div>
+    </section>
+    <footer class="footer flex-center">
+      <div class="break-line"></div>
+      <div class="footer-links-container">
+        <a class="footer-links" href="#">FAQs</a>
+        <a class="footer-links" href="#">Contact</a>
+        <a class="footer-links" href="#">Terms & Conditions</a>
+        <a class="footer-links" href="#">Careers</a>
+        <a class="footer-links" href="#">Privacy</a>
+        <a class="footer-links" href="#">Do Not Sell My Personal Information</a>
+      </div>
+      <div class="social-icon-containers">
+        <img class="social-media-icons" src="./assets/social-media/facebook.svg" alt="facebook icon">
+        <img class="social-media-icons" src="./assets/social-media/instagram.svg" alt="Instagram icon">
+        <img class="social-media-icons" src="./assets/social-media/twitter.svg" alt="twitter icon">
+      </div>
+      <div class="footer-text">Please drink responsibly. Hard Seltzer with Flavors. All
+        Registered Trademarks used under license by White Claw Seltzer Works, Chicago,
+        IL. Nutritional Information available at whiteclaw.com. See full rules for entry criteria
+        and details.
+      </div>
+      <div id="footer-image__container">
+        <a href="https://www.whiteclaw.com/">
+          <img src="./assets/wcLogoWhite.png" alt="white claw logo" height="80px">
+        </a>
+      </div>
+    </footer>
   </div>
-  </section>
-  <section id="cta-form" class="form-section column">
-    <div id="section-half-image-container" class="section-half column">
-      <img id="happy-hour" src="./assets/HH134.jgp" alt="Happy Hour 134">
-    </div>
-    <div class="section-half column">
-      <h2>ENTER TO WIN</h2>
-      <div>
-        Insert Form Here
-      </div>
-    </div>
-  </section>
-  <section id="gallery">
-    <h1 class="gallery-title">YOUR HAPPY HOURS</h1>
-    <div class="gallery-section flex-center">
-      <div id="gallery-container">
-        <div class="polaroid-container">
-          <img class="gallery-photo" src="./assets/Imagery/g" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1060749108.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1063846062.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm move-down">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1063851602.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm move-up">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1135147998_1.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1279483477_1.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm move-down">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1368420689.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-1401377259.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm move-down">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-503612392.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm move-up">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-519874619_1.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-565973285_1.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm move-down">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-627873424.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-641775168.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-right-sm move-up">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-77932214.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-        <div class="polaroid-container rotate-left-sm move-down">
-          <img class="gallery-photo" src="./assets/Imagery/GettyImages-956390072.jpg" alt="happy hour gallery photo">
-          <img class="polaroid" src="./assets/polaroid.png" alt="Polaroids">
-        </div>
-      </div>
-
-    </div>
-    <div class="gallery-control-container">
-      <div class="flex-center scroll-container">
-        <img id="left-gallery-chevron" class='chevron' src="./assets/left-chervon.svg" alt="left gallery arrow">
-        <div class="scroll-text">VIEW GALLERY</div>
-        <img id="right-gallery-chevron" class='chevron' src="./assets/right-chervon.svg" alt="right gallery arrow">
-      </div>
-      <div class="gallery-hashtag"> #134HAPPYHOURS</div>
-
-
-      <img id="gallery-sticker-green" class="sticker" src="./assets/stickers/green_sticker.png" alt="pink sticker">
-      <img id="gallery-sticker-white" class="sticker" src="./assets/stickers/white_sticker.png" alt="pink sticker">
-      <img id="gallery-sticker-orange" class="sticker" src="./assets/stickers/orange_sticker.png" alt="pink sticker">
-    </div>
-  </section>
-  <section id="footer-gallery-section">
-    <div id="footer-gallery" class="flex-center">
-      <div id="footer-gallery-container">
-        <img src="./assets/Imagery/GettyImages-956390072.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-77932214.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1063851602.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-641775168.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-627873424.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-565973285_1.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-519874619_1.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-503612392.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1401377259.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1368420689.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1279483477_1.jpg" alt="footer gallery photo"
-          class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1135147998_1.jpg" alt="footer gallery photo"
-          class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1063851602.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1063846062.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-1060749108.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-956390072.jpg" alt="footer gallery photo" class="footer-gallery-image">
-        <img src="./assets/Imagery/GettyImages-77932214.jpg" alt="footer gallery photo" class="footer-gallery-image">
-      </div>
-
-    </div>
-
-  </section>
-  <footer class="footer flex-center">
-    <div class="break-line"></div>
-    <div class="footer-links-container">
-      <a class="footer-links" href="#">FAQs</a>
-      <a class="footer-links" href="#">Contact</a>
-      <a class="footer-links" href="#">Terms & Conditions</a>
-      <a class="footer-links" href="#">Careers</a>
-      <a class="footer-links" href="#">Privacy</a>
-      <a class="footer-links" href="#">Do Not Sell My Personal Information</a>
-    </div>
-    <div class="social-icon-containers">
-      <img class="social-media-icons" src="./assets/social-media/facebook.svg" alt="facebook icon">
-      <img class="social-media-icons" src="./assets/social-media/instagram.svg" alt="Instagram icon">
-      <img class="social-media-icons" src="./assets/social-media/twitter.svg" alt="twitter icon">
-    </div>
-    <div class="footer-text">Please Drink Responsibly. Hard Seltzer with Flavors. All Registered Trademarks used under
-      license by White Claw Seltzer Works, Chicago, IL 60661</div>
-    <div id="footer-image__container">
-      <img src="./assets/wcLogoWhite.png" alt="white claw logo" height="80px">
-    </div>
-  </footer>
 </body>
 
 </html>
