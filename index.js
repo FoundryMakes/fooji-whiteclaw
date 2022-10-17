@@ -41,7 +41,7 @@ $(document).ready(function () {
       galleryLink.removeClass("active")
       homeLink.addClass("active")
     }
-    if (545 < scrollY && scrollY <= 965) {
+    if (505 < scrollY && scrollY <= 965) {
       ctaLink.addClass("active")
       galleryLink.removeClass("active")
       homeLink.removeClass("active")
@@ -52,6 +52,10 @@ $(document).ready(function () {
       homeLink.removeClass("active")
     }
   }
+
+  setTimeout(() => {
+    $("#animated-gift-video").addClass("gift-animation")
+  }, 4500)
 }
 )
 
