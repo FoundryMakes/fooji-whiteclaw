@@ -70,7 +70,8 @@ div {
 #landing-background {
   background-image: url('./assets/HH_Web_1920.png');
   background-repeat: no-repeat;
-  background-size: 600px;
+  background-size: 800px;
+  background-position: -139px 26px;
   position: relative;
   top: -30px;
 }
@@ -84,7 +85,6 @@ div {
 #landing-section__content-half {
   flex: 1;
   flex-direction: column;
-  height: 492px;
   color: white;
   position: relative;
   top: 100px;
@@ -188,7 +188,6 @@ div {
 .copy-width {
   width: 260px;
 }
-
 
 .break-line {
   background-color: white;
@@ -459,6 +458,7 @@ div {
 
   #landing-background {
     background-size: cover;
+    background-position: initial;
   }
 }
 
@@ -466,6 +466,7 @@ div {
 
   #landing-background {
     background-size: cover;
+    background-position: center;
   }
 
   #header-nav {
@@ -473,10 +474,7 @@ div {
     justify-content: space-evenly;
     color: white;
     width: 100%;
-    position: sticky;
-    top: 20px;
     z-index: 1000;
-
   }
 
   #header-logo {
@@ -495,6 +493,7 @@ div {
     flex-direction: row;
     margin-bottom: 100px;
     align-items: center;
+    height: 600px;
   }
 
 
@@ -558,7 +557,7 @@ div {
   #animated-gift-video {
     display: inline;
     position: relative;
-    width: 700px;
+    width: 550px;
     top: 85px;
   }
 
@@ -569,5 +568,27 @@ div {
 
   .gallery-title {
     margin-bottom: 0;
+  }
+
+  .footer-text {
+    width: 75%
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #animated-gift-video {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #animated-gift-video {
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  #animated-gift-video {
+    width: 830px;
   }
 }
